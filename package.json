@@ -1,0 +1,22 @@
+{
+  "name": "ticketsystem",
+  "version": "1.0.0",
+  "description": "a simple Click Menu Ticket System with DATABASE and SETUP Command in discord.js v13 # Lets get started first of all - write ~npm i~ it will download all packages - write the information correctly at config.json - write node . and enjoy ur new ticket system!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basasasao1/ticketsystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basasasao1/ticketsystem/issues"
+  },
+  "homepage": "https://github.com/basasasao1/ticketsystem#readme",
+  "dependencies": {
+    "discord.js": "^13.5.0"
+  }
+}
