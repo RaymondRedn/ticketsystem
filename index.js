@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const config = require('./config.json')
+require('dotenv').config
 const client = new Discord.Client({
     allowedMentions: {
         parse: ["roles", "users"],
@@ -15,4 +15,4 @@ const client = new Discord.Client({
 client.on("ready",() =>{
     console.log(`${client.user.usernae} is ready to use`)
 })
-client.login(config.token)
+client.login(process.env.token)
