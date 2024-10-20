@@ -1,8 +1,8 @@
 const discord = require('discord.js')
 const client = new discord.Client()
-const prefix = "m?"
+const prefix = "?"
 
 client.on('ready',()=>{
     console.log(`${client.user.username} ready`)
-    client.user.setActivity(name = "m?", type = "WATCHING")
+    client.user.setActivity(name = "Helper", type = "WATCHING")
 })
